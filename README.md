@@ -29,3 +29,16 @@ Key features of the project:
    ```bash
    git clone https://github.com/su2118/handwritten_reco.git
    cd handwritten_reco
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+### Training the Model
+If you'd like to train the model from scratch, you can use the `ModelHR.py`  file to build and train the model based on the **MNIST dataset**:
+```bash
+python ModelHR.py
+This script will train the CNN model and save it for later use.
+
+## Running Prediction
+To run the real-time handwritten digit recognition using the trained model, use the `software.py` file:
